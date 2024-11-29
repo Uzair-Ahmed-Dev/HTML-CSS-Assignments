@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins , arial , sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+nav , img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    width: 900px;
+    text-align: center;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+  
+}
+
+nav ul li {
+    width: 140px;
+}
+
+#navtop {
+    background-color: #333;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.contactIcon {
+    display: flex;
+    margin-left: 770px;
+    padding: 10px;
+}
+.contactIcon i {
+    margin: 0 10px;
+}
+
+.contactIcon button {
+    background-color: lightgreen;
+    height: 25px;
+    width: 120px;
+    margin: 0 10px;
+    border-radius: 4px
+}
+
+.soicalIcon {
+    padding: 10px;
+}
+
+
+.soicalIcon i {
+    margin: 0 10px;
+}
+
+#wellcome-section {
+    text-align: center;
+    background-image: url("bg3.png");
+    background-size: cover;
+    height: 50vh; 
+    width: 100%;
+    color: #fff;
+}
+
+#wellcome-section h2 {
+    padding-top: 100px;
+    font-size: 50px
+}
+
+#wellcome-section  p {
+    width: 50%;
+    margin: 20px auto;
+}
+
+#wellcome-section button {
+    height: 35px;
+    width: 130px;
+    background-color: orange;
+    border-radius: 0.25em;
+    margin-top: 2em;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: none;
+    border-bottom: 0.25em solid rgb(164, 109, 5);
+}
+
+
+#work-section {
+    text-align: center;
+    
+}
+
+#work-section h2 {
+    font-size: 50px;
+    padding-top: 20px
+}
+
+#work-section span {
+    color: darkolivegreen;
+}
+
+#work-section p {
+    width: 50%;
+    margin: 10px auto 100px auto;
+  
+}
+
+.icon{
+    background-color : lightgray;
+    height: 100px;
+    width: 100px;
+  border-radius: 50%;
+  color: black;
+  margin: 10px 100px;
+} 
+.icon i{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px
+}
+
+#advantages-icons {
+    display: flex;
+    margin: 20px;
+}
+
+
+
+#about-us {
+    background-image: url('about.png');
+    background-size: cover;
+    height: 500px; 
+    width: 100%;
+}
+
+#about-us h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#about-us span {
+    color: darkolivegreen;
+}
+
+#about-us p {
+    width: 40%;
+    text-align: left;
+    margin: 10px 50px;
+}
+
+#about-us  button {
+    height: 35px;
+    width: 130px;
+    background-color: orange;
+    border-radius: 0.25em;
+    margin: 30px 50px;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: none;
+    border-bottom: 0.25em solid rgb(164, 109, 5);
+}
+
+
+#our-services h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#our-services span {
+    color: darkolivegreen;
+}
+
+#our-services p 
+    {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    }
+
+.service-box {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    margin: 100px 20px;
+}
+
+.service-box img {
+    margin-top: -50px ;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.service-box h3 {
+    text-align: center;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+
+.service-box p {
+    text-align: center; 
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.service-box a {
+    text-decoration: none;
+    color: green;
+    margin: 0px 100px;
+}
+
+#ser-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio {
+    background-color: #000
+}
+
+#portfolio h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: #fff
+}
+
+#portfolio span {
+    color: darkolivegreen;
+}
+
+#portfolio p {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+    color: #fff
+}
+
+#portfolio-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#portfolio-links {
+    margin: 0 380px;
+}
+
+#img-box1 {
+    margin: 50px 250px;
+    margin-bottom: 0px;
+}
+
+#img-box1 img {
+    width: 200px;
+    height: 200px;
+}
+
+#img-box2 {
+    margin: 0px 250px; 
+}
+
+#img-box2 img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+#process h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#process span {
+    color: darkolivegreen;
+}
+
+#process p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.circle img {
+    width: 130px;
+    margin:  auto;
+}
+
+#gear {
+    width: 80px;
+    margin:  30px;
+}
+
+#circle-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+#people-aboutus {
+    background-color: lightgray;
+    padding: 50px;
+}
+
+#people-aboutus h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#people-aboutus span {
+    color: darkolivegreen;
+}
+
+#people-aboutus p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.people-box {
+   display: flex;
+   align-items: center;
+
+}
+
+
+
+.people-box  ,span {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.people-box h4 {
+    text-align: left;
+    margin: 0 20px;
+}
+
+#people-about-boxes {
+    margin: 50px 130px ;
+    
+}
+
+#people-box1 {
+    border-bottom: 1px solid #000;
+    padding: 20px 
+}
+
+#people-box2 {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 20px 
+}
+
+#people-box3 {
+    padding: 20px 
+}
+
+#people-box4 {
+    border-left: 1px solid #000;
+    padding:20px 
+}
+
+#skills h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#skills span {
+    color: darkolivegreen;
+}
+
+#skills p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#skills-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px
+}
+
+#skills img {
+    width: 200px
+}
+
+#contact h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#contact span {
+    color: darkolivegreen;
+}
+
+#contact p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+#contact-form h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#contact-form {
+    background-color: darkolivegreen;
+    padding-bottom: 50px;
+}
+
+#form {
+    margin: 50px 300px;
+}
+
+#form input {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#form button {
+    height: 33px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 0.25em;
+   margin-left: 10px;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: none;
+    border-bottom: 0.25em solid rgb(164, 109, 5);
+}
+
+#contact-form p {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+   
+}
+
+#contact-para {
+    margin: 50px 300px;
+}
+
+#contact-para img {
+    height: 30px;
+    width: 30px;
+    
+}
+
+#contact-para p {
+    margin: 0 ;
+    width: 100%
+}
+
+#contact-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 400px;
+}
+
+#contact-images img {
+    height: 30px;
+    width: 30px;
+   
+}
+
+#contact-images p {
+    width: auto;
+    margin: 5px  20px;
+}
+
+#contact-para {
+    display: flex;
+}
+
+.map-box img {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#potion-1 {
+    width: 15vw;
+    margin: 0 50px;
+    padding: 30px;
+}
+
+
+#potion-1 p {
+    color: #fff;
+    text-align: left;
+}
+
+#potion-2 {
+    width: 15vw;
+    margin: 0 50px;
+    padding: 30px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+#potion-2  a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    text-align: left;
+}
+
+#potion-1 #copyright {
+    margin: 20px 0;
+    text-align: left;
+}
+
+#potion-3 {
+    width: 15vw;
+    margin: 0 50px;
+    padding: 30px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+#potion-3 a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    text-align: left;
+}
+
